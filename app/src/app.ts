@@ -1,5 +1,5 @@
 import express, { json } from 'express'
-import todoRoutes from './routes/todos'
+import todoRoutes from '../src/routes/todos'
 
 const app = express();
 
