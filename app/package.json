@@ -7,7 +7,8 @@
   "author": "allanShady <acamilo.ag@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc && node app.js"
+    "dev": "tsc && node dist/app.js",
+    "start": "node dist/app.js"
   },
   "dependencies": {
     "express": "^4.17.1"
