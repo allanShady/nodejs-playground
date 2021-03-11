@@ -1,6 +1,10 @@
-import express from 'express'
+import express, { json } from 'express'
+import todoRoutes from './routes/todos'
 
 const app = express();
-const PORT = 3000;
 
+app.use(json());
+app.use(todoRoutes)
+
+const PORT = 3000;
 app.listen(PORT)
